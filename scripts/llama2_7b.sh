@@ -33,6 +33,7 @@ python run.py \
     --sparsity_type "unstructured" \
     --save_model "outputs/llama2_7b_wanda_dlp_0.6_unstructured_alpha0.1"
 
+# sparsity 0.5 unstructured with alpha 0.04
 python run.py \
     --model "meta-llama/Llama-2-7b-hf" \
     --alpha 0.04 \
