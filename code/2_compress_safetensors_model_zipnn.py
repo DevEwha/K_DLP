@@ -6,8 +6,8 @@ import time
 
 
 # 프루닝된 모델 경로 (절대 경로로 변경)
-model_dir = "/acpl-ssd20/k_models/llama2_7b_wanda_dlp_0.7_unstructured_alpha0.15_safetensors"
-output_dir = "/acpl-ssd20/k_models/zipnn_llama2_7b_wanda_dlp_0.7_unstructured_alpha0.15"
+model_dir = "/acpl-ssd32/k_models/llama2_7b_wanda_dlp_0.5_unstructured_alpha0.04_safetensors"
+output_dir = "/acpl-ssd32/k_models/zipnn_llama2_7b_wanda_dlp_0.5_unstructured_alpha0.04"
 
 
 # 출력 디렉토리 생성

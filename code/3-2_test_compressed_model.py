@@ -5,7 +5,7 @@ import os
 
 print("Step 1: Decompressing model files...")
 
-compressed_dir = "/acpl-ssd20/k_models/zipnn_llama2_7b_wanda_dlp_0.7_unstructured_alpha0.15"
+compressed_dir = "/acpl-ssd32/k_models/zipnn_llama2_7b_wanda_dlp_0.5_unstructured_alpha0.04"
 zpn = zipnn.ZipNN()
 
 # .znn 파일들 압축 해제

@@ -5,7 +5,7 @@ import torch
 
 print("Loading pruned model (no compression)...")
 
-model_path = "/acpl-ssd20/k_models/llama2_7b_wanda_dlp_0.7_unstructured_alpha0.15"
+model_path = "/acpl-ssd32/k_models/llama2_7b_wanda_dlp_0.5_unstructured_alpha0.04"
 
 # 토크나이저와 모델 로드
 tokenizer = AutoTokenizer.from_pretrained(model_path)
